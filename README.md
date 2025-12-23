@@ -29,6 +29,15 @@ The system is evaluated on its ability to produce **strict, schema-valid JSON ou
 **Dataset:** Held-out real + synthetic meeting transcripts  
 **Validation:** Automated schema checks using Pydantic
 
+## Model
+
+The LoRA adapter trained in this project is available on Hugging Face:
+
+🔗 **Hugging Face:** https://huggingface.co/muskankh03/meeting-action-lora
+
+This repository contains only the LoRA adapter weights.  
+The base model (`Mistral-7B-Instruct`) is loaded separately.
+
 ## Why This Project
 
 Many commercial meeting tools provide high-level summaries but do not expose structured outputs, evaluation metrics, or customization. This project focuses on:
